@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Symphony Studio</title>
+	<link rel="stylesheet" type="text/css" href="Symphony Studio.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	<link rel="icon" href="assets/tab-icon.jpg">
+    <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
+</head>
+<body>
+	<!-- Header to include logo & search bar -->
+	<header class="header-section">
+		<!-- Main logo for the webpage -->
+		<div id="logo">
+			<img src="assets/logo.png" alt="Logo" id="logo-img">
+			<div id="logo-text">
+				<p style="letter-spacing: 0rem; font-size: 1.1rem;"> Symphony </p>
+				<p> <b> Studio </b> </p>
+			</div>	
+		</div>
+		<!-- Navigation -->
+		<nav id="nav">
+				<a href="Symphony Studio.html"> Home </a>
+		</nav>
+		<!-- Search bar with buttons and input -->
+		<div id="search-bar">
+			<button type="search" class="header-button">
+				<i class="fas fa-search"></i>
+			</button>
+			<input type="search" name="search" placeholder="Search">
+			<button type="search" class="header-button">
+				<i class="fas fa-microphone"></i>
+			</button>
+		</div>
+		<!-- Notification icon with alert -->
+		<div id="notification">
+			<button type="button" class="header-button">
+				<i class="fas fa-bell" id="notification-icon">
+					<div id="notification-alert"> </div>
+				</i>
+			</button>
+		</div>
+		<!-- User icon -->
+		<div id="user">
+			<img src="assets/user-img.jpeg" id="user-img">
+		</div>
+	</header>
+	<!-- Main tag which conatins all the content below the top bar -->
+	<main class="main">
+		<!-- Left side section -->
+		<section class="main-section">
+			<!-- Div for artist image and information  -->
+			<div class="artist-info">
+				<div id="artist-info-text">
+					<div style="display: flex; align-items: center; justify-content: space-between;">
+						<h1> Coldplay </h1>
+						<p> 851 Followers </p>
+					</div>
+					<p> British Band </p>
+					<p style="line-height: 1.1rem;"> Coldplay is a British music band that has enjoyed continous succes since their inception in 1996 through their intelligent and soulful songs. The band members are Chris Martin (lead vocals), Jonny Buckland (lead guitar), Guy Berryman (bass guitar) and Will Champion (drums). </p>
+				</div>
+				<div id="artist-info-button">
+					<button type="button" id="play-all-button"> Play All </button>
+					<a href="#"> Follow </a>
+				</div>
+				<p id="tracks-albums"> 247 Tracks | 128 Albums </p>
+			</div>
+			<!-- Div for the list of music by the artist -->
+			<div class="artist-music">
+				<!-- Music tile number 1 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 01 </p>
+						<img src="assets/artist-music-img-one.jpg">
+						<div class="artist-music-tile-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Something Just Like This </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+				<!-- Music tile number 2 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 02 </p>
+						<img src="assets/artist-music-img-two.jfif">
+						<div class="artist-music-tile-text">
+							<p> <b> Paradise </b> </p>
+							<p style="font-size: 0.7rem;"> Paradise (Tiesto Remix) </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+				<!-- Music tile number 3 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 03 </p>
+						<img src="assets/artist-music-img-three.jpg">
+						<div class="artist-music-tile-text">
+							<p> <b> Hymn for the Weekend </b> </p>
+							<p style="font-size: 0.7rem;"> A Head Full of Dreams </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+				<!-- Music tile number 4 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 04 </p>
+						<img src="assets/artist-music-img-one.jpg">
+						<div class="artist-music-tile-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Something Just Like This </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+				<!-- Music tile number 5 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 05 </p>
+						<img src="assets/artist-music-img-two.jfif">
+						<div class="artist-music-tile-text">
+							<p> <b> Paradise </b> </p>
+							<p style="font-size: 0.7rem;"> Paradise (Tiesto Remix) </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+				<!-- Music tile number 6 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 06 </p>
+						<img src="assets/artist-music-img-three.jpg">
+						<div class="artist-music-tile-text">
+							<p> <b> Hymn for the Weekend </b> </p>
+							<p style="font-size: 0.7rem;"> A Head Full of Dreams </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+				<!-- Music tile number 7 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 07 </p>
+						<img src="assets/artist-music-img-one.jpg">
+						<div class="artist-music-tile-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Something Just Like This </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+				<!-- Music tile number 8 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 08 </p>
+						<img src="assets/artist-music-img-two.jfif">
+						<div class="artist-music-tile-text">
+							<p> <b> Paradise </b> </p>
+							<p style="font-size: 0.7rem;"> Paradise (Tiesto Remix) </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+				<!-- Music tile number 9 -->
+				<div class="artist-music-tile">
+					<!-- Div for serial number, image, song and album name -->
+					<div id="artist-music-content">
+						<p> 09 </p>
+						<img src="assets/artist-music-img-three.jpg">
+						<div class="artist-music-tile-text">
+							<p> <b> Hymn for the Weekend </b> </p>
+							<p style="font-size: 0.7rem;"> A Head Full of Dreams </p>
+						</div>
+					</div>
+					<!-- Div for like and add icons -->
+					<div id="artist-music-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-plus"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Aside secion for Similar Artists & Recently Played -->
+		<aside class="aside-section">
+			<!-- Sub-Section for Similar Artists -->
+			<section class="sub-section" id="latest-release-sub-section">
+				<!-- Similar Artists heading -->
+				<div class="sub-section-heading"> Similar Artists </div>
+				<!-- Display section containing all content -->
+				<div class="sub-section-display">
+					<!-- Divided into tiles -->
+					<!-- Tile Number 1 -->
+					<div class="latest-release-tile">
+						<img src="assets/album-cover.jpg" alt="Img">
+						<!-- Dropdown list for a tile menu  -->
+						<div class="dropdown">
+							<i class="fas fa-ellipsis-h"></i>
+							<!-- Dropdown content / items to be displayed in the dropdown list -->
+						  	<div class="dropdown-content">
+						    	<a href="#"> <i class="fas fa-play"></i> &nbsp; &nbsp;&nbsp; Play Now </a> <hr>
+						    	<a href="#"> <i class="fas fa-plus"></i> &nbsp; &nbsp;&nbsp; Add to Queue </a> <hr>
+						    	<a href="#"> 
+						    		<i class="fas fa-bars">
+						    			<i class="fas fa-plus" style="position: relative; left: -10px; top: 4px;"></i>
+						    		</i> 
+						    		Add to Favourites
+						    	</a> <hr>
+						    	<a href="#"> <i class="fas fa-info-circle"></i> &nbsp;&nbsp;&nbsp; Get Info </a>
+						  	</div>
+						</div>
+						<div class="tile-info">
+							<p> 
+								<b> Shape of You </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:53 
+							</p>
+							<p style="font-size: 0.7rem;"> JAN 6, 2017 </p>
+						</div>
+					</div>
+					<!-- Tile Number 2 -->
+					<div class="latest-release-tile">
+						<img src="assets/album-cover.jpg" alt="Img">
+						<div class="dropdown">
+							<i class="fas fa-ellipsis-h"></i>
+						  	<div class="dropdown-content">
+						    	<a href="#"> <i class="fas fa-play"></i> &nbsp; &nbsp;&nbsp; Play Now </a> <hr>
+						    	<a href="#"> <i class="fas fa-plus"></i> &nbsp; &nbsp;&nbsp; Add to Queue </a> <hr>
+						    	<a href="#"> 
+						    		<i class="fas fa-bars">
+						    			<i class="fas fa-plus" style="position: relative; left: -10px; top: 4px;"></i>
+						    		</i> 
+						    		Add to Favourites
+						    	</a> <hr>
+						    	<a href="#"> <i class="fas fa-info-circle"></i> &nbsp;&nbsp;&nbsp; Get Info </a>
+						  	</div>
+						</div>
+						<div class="tile-info">
+							<p> 
+								<b> Shape of You </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:53 
+							</p>
+							<p style="font-size: 0.7rem;"> JAN 6, 2017 </p>
+						</div>
+					</div>
+					<!-- Tile Number 3 -->
+					<div class="latest-release-tile">
+						<img src="assets/album-cover.jpg" alt="Img">
+						<div class="dropdown">
+							<i class="fas fa-ellipsis-h"></i>
+						  	<div class="dropdown-content">
+						    	<a href="#"> <i class="fas fa-play"></i> &nbsp; &nbsp;&nbsp; Play Now </a> <hr>
+						    	<a href="#"> <i class="fas fa-plus"></i> &nbsp; &nbsp;&nbsp; Add to Queue </a> <hr>
+						    	<a href="#"> 
+						    		<i class="fas fa-bars">
+						    			<i class="fas fa-plus" style="position: relative; left: -10px; top: 4px;"></i>
+						    		</i> 
+						    		Add to Favourites
+						    	</a> <hr>
+						    	<a href="#"> <i class="fas fa-info-circle"></i> &nbsp;&nbsp;&nbsp; Get Info </a>
+						  	</div>
+						</div>
+						<div class="tile-info">
+							<p> 
+								<b> Shape of You </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:53 
+							</p>
+							<p style="font-size: 0.7rem;"> JAN 6, 2017 </p>
+						</div>
+					</div>
+					<!-- Tile Number 4 -->
+					<div class="latest-release-tile">
+						<img src="assets/album-cover.jpg" alt="Img">
+						<div class="dropdown">
+							<i class="fas fa-ellipsis-h"></i>
+						  	<div class="dropdown-content">
+						    	<a href="#"> <i class="fas fa-play"></i> &nbsp; &nbsp;&nbsp; Play Now </a> <hr>
+						    	<a href="#"> <i class="fas fa-plus"></i> &nbsp; &nbsp;&nbsp; Add to Queue </a> <hr>
+						    	<a href="#"> 
+						    		<i class="fas fa-bars">
+						    			<i class="fas fa-plus" style="position: relative; left: -10px; top: 4px;"></i>
+						    		</i> 
+						    		Add to Favourites
+						    	</a> <hr>
+						    	<a href="#"> <i class="fas fa-info-circle"></i> &nbsp;&nbsp;&nbsp; Get Info </a>
+						  	</div>
+						</div>
+						<div class="tile-info">
+							<p> 
+								<b> Shape of You </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:53 
+							</p>
+							<p style="font-size: 0.7rem;"> JAN 6, 2017 </p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Similar Artists ends here -->
+			<!-- Div for Recently Played - uses the same template for Queue-->
+			<div id="queue">
+				<!-- Aside section heading -->
+				<div id="aside-section-heading">
+					<h1> Recently Played </h1>
+					<!-- Dropdown option -->
+					<div class="dropdown" id="queue-dropdown">
+						<p>	Queue </p> <i class="fas fa-chevron-down"></i>
+						<!-- Dropdown content / items to be displayed in the dropdown list -->
+						<div class="dropdown-content" id="queue-dropdown-content">
+						   	<a href="#" id="go-to-my-playlist"> &nbsp; &nbsp;&nbsp; My Playlist </a> <hr>
+						   	<a href="#"> &nbsp; &nbsp;&nbsp; Favourite Songs </a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Section to contain all queue items -->
+				<div class="queue-items">
+					<!-- Tile for item 1 -->
+					<div class="queue-item-tile">
+						<p> 01 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 2 -->
+					<div class="queue-item-tile">
+						<p> 02 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 3 -->
+					<div class="queue-item-tile">
+						<p> 03 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 4 -->
+					<div class="queue-item-tile">
+						<p> 04 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 5 -->
+					<div class="queue-item-tile">
+						<p> 05 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 6 -->
+					<div class="queue-item-tile">
+						<p> 06 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 7 -->
+					<div class="queue-item-tile">
+						<p> 07 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 8 -->
+					<div class="queue-item-tile">
+						<p> 08 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 9 -->
+					<div class="queue-item-tile">
+						<p> 09 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 10 -->
+					<div class="queue-item-tile">
+						<p> 10 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 11 -->
+					<div class="queue-item-tile">
+						<p> 11 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 12 -->
+					<div class="queue-item-tile">
+						<p> 12 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 13 -->
+					<div class="queue-item-tile">
+						<p> 13 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 14 -->
+					<div class="queue-item-tile">
+						<p> 14 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 15 -->
+					<div class="queue-item-tile">
+						<p> 15 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- Queue items ends here -->
+			</div>
+			<!-- Recently Played ends here -->
+		</aside>
+
+		<!-- Footer to include the music play controls -->
+		<footer class="footer-section">
+			<!-- Display to conatin all elements of music controls-->
+			<div class="footer-display" id="footer-display">
+				<!-- Left-most section - song details, etc -->
+				<div class="player-items" id="song-details">
+					<!-- Song image -->
+					<img src="assets/music-player-img.png" alt="Img">
+					<!-- Div for song and artist name  -->
+					<div id="song-details-text">
+						<p> <b> Darkside </b> </p>
+						<p style="font-size: 0.7rem; color: #858585;"> Alan Walker </p>
+					</div>
+					<!-- Div for heart and ban icons -->
+					<div id="song-details-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-ban"></i>
+					</div>
+				</div>
+				<!-- Left-most section ends here -->
+
+				<!-- Middle section - controls, progress bar, etc. -->
+				<div class="player-items" id="player-controls">
+					<!-- Div for player control icons -->
+					<div id="player-control-icons">
+						<i class="fas fa-random"></i>
+						<i class="fas fa-step-backward"></i>
+						<i class="far fa-play-circle" id="play-button" style="font-size: 2.2rem;"></i>
+						<!-- Song link to play when play button is hit -->
+						<audio src="https://aa.cf.saavncdn.com/355/5eed3326fb2aa459d06b5ce97f51f368_64.mp3?Expires=1590949490&Signature=Z3FWcVXl9VG1~OHfycq2zr1~mZIhlne-L47u2AwRBGKguu4Wndnki3gR9sA7bwdIOjBq2E68b2MyyrF6jlUXtiXgBdhg09SYelZVgMdhxC7waw72hdVk4ANKHqO5a~QdiDnVEnW1-iHdwr--TY2PiFvnrSUpNXGaVF34QputSl7J0tOIDCfuU5n6feUpiwRp90k1gyyQTAG6fw-HNh1tPo9CAVL0maA0vzg6gzD8WoD7gAV2sOCUR8UsG4oLArTW6NHz7F8~2y-ijP1-CWBRUWDt5di2dXqK-sSnFO-d4d9Z7y6vWMhSNMQOmSJpItNbuNl6IuRjqJIlAnuNldol1w__&Key-Pair-Id=APKAJB334VX63D3WJ5ZQ" id="song-player" preload="auto" ontimeupdate="updateProgress()">
+						</audio>
+						<i class="far fa-pause-circle" id="pause-button" style="font-size: 2.2rem; display: none;"></i>
+						<i class="fas fa-step-forward"></i>
+						<i class="fas fa-sync"></i>
+					</div>
+					<!-- Div for music progress bar -->
+					<div id="music-progress-bar">
+						<p id="time-played"> 0:00 </p>
+						<progress id="progress-bar" value="0" max="100"></progress>
+						<p> 3:31 </p>
+					</div>
+				</div>
+				<!-- Middle section ends here -->
+
+				<!-- Right-most section - other controls, etc -->
+				<div class="player-items" id="other-controls">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-desktop"></i>
+					<i class="fas fa-volume-up" id="volume-up"></i>
+					<i class="fas fa-volume-down" id="volume-down" style="display: none;"></i>
+					<i class="fas fa-volume-mute" id="volume-mute" style="display: none;"></i>
+					<input id="volume-slider" type="range">
+					<i class="fas fa-expand"></i>
+				</div>
+				<!-- Right-most section ends here -->
+			</div>
+		</footer>
+		<!-- Footer for music player ends here -->
+
+	</main>
+	<!-- The complete main which contains all content ends here -->
+
+	<!-- Adding javascript file -->
+	<script type="text/javascript" src="Symphony Studio.js"></script>
+</body>
+</html>

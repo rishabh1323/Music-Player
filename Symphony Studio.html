@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Symphony Studio</title>
+	<link rel="stylesheet" type="text/css" href="Symphony Studio.css">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	<link rel="icon" href="assets/tab-icon.jpg">
+    <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
+</head>
+<body>
+	<!-- Header to include logo & search bar -->
+	<header class="header-section">
+		<div id="logo">
+			<img src="assets/logo.png" alt="Logo" id="logo-img">
+			<div id="logo-text">
+				<p style="letter-spacing: 0rem; font-size: 1.1rem;"> Symphony </p>
+				<p> <b> Studio </b> </p>
+			</div>
+		</div>
+		<nav id="nav">
+				<a href="#"> Favourites </a>
+		</nav>
+		<div id="search-bar">
+			<button type="search" class="header-button">
+				<i class="fas fa-search"></i>
+			</button>
+			<input type="search" name="search" placeholder="Search">
+			<button type="search" class="header-button">
+				<i class="fas fa-microphone"></i>
+			</button>
+		</div>
+		<div id="notification">
+			<button type="button" class="header-button">
+				<i class="fas fa-bell" id="notification-icon">
+					<div id="notification-alert"> </div>
+				</i>
+			</button>
+		</div>
+		<div id="user">
+			<img src="assets/user-img.jpeg" id="user-img">
+		</div>
+	</header>
+	<!-- Main to include the main content, queue, my playlist & similar artists -->
+
+	<!-- Main is divided in two parts - Main Section & Aside Section -->
+	<main class="main">
+		<!-- Main section to include the main content like carousel, latest release, popular artists, etc. -->
+		<section class="main-section">
+			<!-- Section for carousel -->
+			<section class="carousel">
+				<div class="image-holder" id="image-left">
+					<img src="assets/carousel-img-left.jfif">
+				</div>
+				<div class="image-holder" id="image-mid">
+					<img src="assets/carousel-img-mid.png">
+				</div>
+				<div class="image-holder" id="image-right">
+					<img src="assets/carousel-img-right.jfif">
+				</div>
+			</section>
+
+			<!-- Sub-Section for Latest Release -->
+			<section class="sub-section" id="latest-release-sub-section">
+				<!-- Latest Release heading -->
+				<div class="sub-section-heading"> Latest Release </div>
+				<!-- Display section containing all content -->
+				<div class="sub-section-display">
+					<!-- Divided into tiles -->
+					<!-- Tile Number 1 -->
+					<div class="latest-release-tile">
+						<img src="assets/album-cover.jpg" alt="Img">
+						<!-- Dropdown list for a tile menu  -->
+						<div class="dropdown">
+							<i class="fas fa-ellipsis-h"></i>
+							<!-- Dropdown content / items to be displayed in the dropdown list -->
+						  	<div class="dropdown-content">
+						    	<a href="#"> <i class="fas fa-play"></i> &nbsp; &nbsp;&nbsp; Play Now </a> <hr>
+						    	<a href="#"> <i class="fas fa-plus"></i> &nbsp; &nbsp;&nbsp; Add to Queue </a> <hr>
+						    	<a href="#"> 
+						    		<i class="fas fa-bars">
+						    			<i class="fas fa-plus" style="position: relative; left: -10px; top: 4px;"></i>
+						    		</i> 
+						    		Add to Favourites
+						    	</a> <hr>
+						    	<a href="#"> <i class="fas fa-info-circle"></i> &nbsp;&nbsp;&nbsp; Get Info </a>
+						  	</div>
+						</div>
+						<div class="tile-info">
+							<p> 
+								<b> Shape of You </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:53 
+							</p>
+							<p style="font-size: 0.7rem;"> JAN 6, 2017 </p>
+						</div>
+					</div>
+					<!-- Tile Number 2 -->
+					<div class="latest-release-tile">
+						<img src="assets/album-cover.jpg" alt="Img">
+						<div class="dropdown">
+							<i class="fas fa-ellipsis-h"></i>
+						  	<div class="dropdown-content">
+						    	<a href="#"> <i class="fas fa-play"></i> &nbsp; &nbsp;&nbsp; Play Now </a> <hr>
+						    	<a href="#"> <i class="fas fa-plus"></i> &nbsp; &nbsp;&nbsp; Add to Queue </a> <hr>
+						    	<a href="#"> 
+						    		<i class="fas fa-bars">
+						    			<i class="fas fa-plus" style="position: relative; left: -10px; top: 4px;"></i>
+						    		</i> 
+						    		Add to Favourites
+						    	</a> <hr>
+						    	<a href="#"> <i class="fas fa-info-circle"></i> &nbsp;&nbsp;&nbsp; Get Info </a>
+						  	</div>
+						</div>
+						<div class="tile-info">
+							<p> 
+								<b> Shape of You </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:53 
+							</p>
+							<p style="font-size: 0.7rem;"> JAN 6, 2017 </p>
+						</div>
+					</div>
+					<!-- Tile Number 3 -->
+					<div class="latest-release-tile">
+						<img src="assets/album-cover.jpg" alt="Img">
+						<div class="dropdown">
+							<i class="fas fa-ellipsis-h"></i>
+						  	<div class="dropdown-content">
+						    	<a href="#"> <i class="fas fa-play"></i> &nbsp; &nbsp;&nbsp; Play Now </a> <hr>
+						    	<a href="#"> <i class="fas fa-plus"></i> &nbsp; &nbsp;&nbsp; Add to Queue </a> <hr>
+						    	<a href="#"> 
+						    		<i class="fas fa-bars">
+						    			<i class="fas fa-plus" style="position: relative; left: -10px; top: 4px;"></i>
+						    		</i> 
+						    		Add to Favourites
+						    	</a> <hr>
+						    	<a href="#"> <i class="fas fa-info-circle"></i> &nbsp;&nbsp;&nbsp; Get Info </a>
+						  	</div>
+						</div>
+						<div class="tile-info">
+							<p> 
+								<b> Shape of You </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:53 
+							</p>
+							<p style="font-size: 0.7rem;"> JAN 6, 2017 </p>
+						</div>
+					</div>
+					<!-- Tile Number 4 -->
+					<div class="latest-release-tile">
+						<img src="assets/album-cover.jpg" alt="Img">
+						<div class="dropdown">
+							<i class="fas fa-ellipsis-h"></i>
+						  	<div class="dropdown-content">
+						    	<a href="#"> <i class="fas fa-play"></i> &nbsp; &nbsp;&nbsp; Play Now </a> <hr>
+						    	<a href="#"> <i class="fas fa-plus"></i> &nbsp; &nbsp;&nbsp; Add to Queue </a> <hr>
+						    	<a href="#"> 
+						    		<i class="fas fa-bars">
+						    			<i class="fas fa-plus" style="position: relative; left: -10px; top: 4px;"></i>
+						    		</i> 
+						    		Add to Favourites
+						    	</a> <hr>
+						    	<a href="#"> <i class="fas fa-info-circle"></i> &nbsp;&nbsp;&nbsp; Get Info </a>
+						  	</div>
+						</div>
+						<div class="tile-info">
+							<p> 
+								<b> Shape of You </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:53 
+							</p>
+							<p style="font-size: 0.7rem;"> JAN 6, 2017 </p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Popular Artists section -->
+			<section class="sub-section">
+				<!-- Heading -->
+				<div class="sub-section-heading"> Popular Artists </div>
+				<!-- Display containing icons of artists -->
+				<div class="sub-section-display">
+					<!-- Artist 1 -->
+					<div class="artist">
+						<img src="assets/artist-one.jpg" onclick="location.href='Single Playlist Page.html'">
+						<p> Charlie Puth </p>
+					</div>
+					<!-- Artist 2 -->
+					<div class="artist">
+						<img src="assets/artist-two.jpg" onclick="location.href='Single Playlist Page.html'">
+						<p> Coldplay </p>
+					</div>
+					<!-- Artist 3 -->
+					<div class="artist">
+						<img src="assets/artist-three.jfif" onclick="location.href='Single Playlist Page.html'">
+						<p> Ed Sheeran </p>
+					</div>
+					<!-- Artist 4 -->
+					<div class="artist">
+						<img src="assets/artist-four.jpg" onclick="location.href='Single Playlist Page.html'">
+						<p> Camila Cabello </p>
+					</div>
+					<!-- Artist 5 -->
+					<div class="artist">
+						<img src="assets/artist-five.jfif" onclick="location.href='Single Playlist Page.html'">
+						<p> Selena Gomez </p>
+					</div>
+					<!-- Artist 6 -->
+					<div class="artist">
+						<img src="assets/artist-six.jpg" onclick="location.href='Single Playlist Page.html'">
+						<p> Imagine Dragons </p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Category Section 1 for stations, love, retro, etc. with small and round icons -->
+			<section class="categories">
+				<!-- The stations icon -->
+				<div id="stations-icon">
+					<p> Stations </p>
+				</div>
+				<!-- Round icon 1 -->
+				<div class="category-one-item" id="love-category"> 
+					<p> Love </p>
+				</div>
+				<!-- Round icon 2 -->
+				<div class="category-one-item" id="retro-category">
+					<p> Retro </p>
+				</div>
+				<!-- Round icon 3 -->
+				<div class="category-one-item" id="chill-category">
+					<p> Chill </p>
+				</div>
+				<!-- Round icon 4 -->
+				<div class="category-one-item" id="workout-category">
+					<p> Workout </p>
+				</div>
+				<!-- Round icon 5 -->
+				<div class="category-one-item" id="rock-category">
+					<p> Rock </p>
+				</div>
+				<!-- Round icon 6 -->
+				<div class="category-one-item" id="pop-category">
+					<p> Pop </p>
+				</div>
+			</section>
+
+			<!-- Category Section 2 for prty, electronic, etc. with large rectangular icons -->
+			<section class="categories" id="category-section-two">
+				<!-- Rectangular icon for category "Party" -->
+				<div class="category-two-item" id="party-category">
+					<p> Party </p>
+				</div>
+				<!-- Rectangular icon for category "Electronic" -->
+				<div class="category-two-item" id="electronic-category">
+					<p> Electronic </p>
+				</div>
+				<!-- Rectangular icon for category "Road Trip" -->
+				<div class="category-two-item" id="road-trip-category">
+					<p> Road Trip </p>
+				</div>
+			</section>
+
+			<!-- Sub-Section 3 for Latest English -->
+			<section class="sub-section">
+				<!-- Section Heading -->
+				<div class="sub-section-heading"> Latest English </div>
+				<!-- Section display which contains content -->
+				<div class="sub-section-display">
+					<!-- Latest English tile 1 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-english-img-one.png">
+						<p> <b> Attention </b> </p>
+						<p style="font-size: 0.65rem;"> April 21, 2017 </p>
+					</div>
+					<!-- Latest English tile 2 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-english-img-two.png">
+						<p> <b> Closer </b> </p>
+						<p style="font-size: 0.65rem;"> July 29, 2016 </p>
+					</div>
+					<!-- Latest English tile 3 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-english-img-three.jpg">
+						<p> <b> Friends </b> </p>
+						<p style="font-size: 0.65rem;"> Feb 9, 2018 </p>
+					</div>
+					<!-- Latest English tile 4 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-english-img-one.png">
+						<p> <b> Attention </b> </p>
+						<p style="font-size: 0.65rem;"> April 21, 2017 </p>
+					</div>
+					<!-- Latest English tile 5 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-english-img-two.png">
+						<p> <b> Closer </b> </p>
+						<p style="font-size: 0.65rem;"> July 29, 2016 </p>
+					</div>	
+					<!-- Latest English tile 6 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-english-img-three.jpg">
+						<p> <b> Friends </b> </p>
+						<p style="font-size: 0.65rem;"> Feb 9, 2018 </p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Sub-Section 4 for Latest Hindi -->
+			<section class="sub-section">
+				<!-- Section Heading -->
+				<div class="sub-section-heading"> Latest Hindi </div>
+				<!-- Section display which contains content -->
+				<div class="sub-section-display">
+					<!-- Latest Hindi tile 1 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-hindi-img-one.png">
+						<p> <b> Bheegi Bheegi </b> </p>
+						<p style="font-size: 0.65rem;"> May 11, 2020 </p>
+					</div>
+					<!-- Latest Hindi tile 2 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-hindi-img-two.jpeg">
+						<p> <b> Dheeme Dheeme </b> </p>
+						<p style="font-size: 0.65rem;"> May 8, 2019 </p>
+					</div>
+					<!-- Latest Hindi tile 3 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-hindi-img-three.jpg">
+						<p> <b> Dil Chori </b> </p>
+						<p style="font-size: 0.65rem;"> Dec 26, 2017 </p>
+					</div>
+					<!-- Latest Hindi tile 4 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-hindi-img-one.png">
+						<p> <b> Bheegi Bheegi </b> </p>
+						<p style="font-size: 0.65rem;"> May 11, 2020 </p>
+					</div>
+					<!-- Latest Hindi tile 5 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-hindi-img-two.jpeg">
+						<p> <b> Dheeme Dheeme </b> </p>
+						<p style="font-size: 0.65rem;"> May 8, 2019 </p>
+					</div>	
+					<!-- Latest Hindi tile 6 -->
+					<div class="latest-song-tile">
+						<img src="assets/latest-hindi-img-three.jpg">
+						<p> <b> Dil Chori </b> </p>
+						<p style="font-size: 0.65rem;"> Dec 26, 2017 </p>
+					</div>
+				</div>
+			</section>
+		</section>
+		<!-- Left side of main content ends -->
+
+		<!-- Aside to include queue, my playlist & similar artists -->
+		<aside class="aside-section">
+			<!-- Queue -->
+			<div id="queue">
+				<!-- Aside section heading -->
+				<div id="aside-section-heading">
+					<h1> Queue </h1>
+					<!-- Dropdown option -->
+					<div class="dropdown" id="queue-dropdown">
+						<p>	Queue </p> <i class="fas fa-chevron-down"></i>
+						<!-- Dropdown content / items to be displayed in the dropdown list -->
+						<div class="dropdown-content" id="queue-dropdown-content">
+						   	<a href="#" id="go-to-my-playlist"> &nbsp; &nbsp;&nbsp; My Playlist </a> <hr>
+						   	<a href="#"> &nbsp; &nbsp;&nbsp; Favourite Songs </a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Section to contain all queue items -->
+				<div class="queue-items">
+					<!-- Tile for item 1 -->
+					<div class="queue-item-tile">
+						<p> 01 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 2 -->
+					<div class="queue-item-tile">
+						<p> 02 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 3 -->
+					<div class="queue-item-tile">
+						<p> 03 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 4 -->
+					<div class="queue-item-tile">
+						<p> 04 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 5 -->
+					<div class="queue-item-tile">
+						<p> 05 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 6 -->
+					<div class="queue-item-tile">
+						<p> 06 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 7 -->
+					<div class="queue-item-tile">
+						<p> 07 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 8 -->
+					<div class="queue-item-tile">
+						<p> 08 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 9 -->
+					<div class="queue-item-tile">
+						<p> 09 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 10 -->
+					<div class="queue-item-tile">
+						<p> 10 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 11 -->
+					<div class="queue-item-tile">
+						<p> 11 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 12 -->
+					<div class="queue-item-tile">
+						<p> 12 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 13 -->
+					<div class="queue-item-tile">
+						<p> 13 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 14 -->
+					<div class="queue-item-tile">
+						<p> 14 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 15 -->
+					<div class="queue-item-tile">
+						<p> 15 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+				<!-- Queue items ends here -->
+			</div>
+			<!-- Queue ends here -->
+
+			<!-- My Playlist -->
+			<!-- Template for queue is repeated to save redundant code -->
+			<div id="my-playlist">
+				<!-- Aside section heading -->
+				<div id="aside-section-heading">
+					<h1> My Playlist </h1>
+					<!-- Dropdown option -->
+					<div class="dropdown" id="queue-dropdown">
+						<p>	Queue </p> <i class="fas fa-chevron-down"></i>
+						<!-- Dropdown content / items to be displayed in the dropdown list -->
+						<div class="dropdown-content" id="queue-dropdown-content">
+						   	<a href="#" id="go-to-queue"> &nbsp; &nbsp;&nbsp; Queue </a> <hr>
+						   	<a href="#"> &nbsp; &nbsp;&nbsp; Favourite Songs </a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Section to contain all playlist items -->
+				<div class="queue-items">
+					<!-- Tile for item 1 -->
+					<div class="queue-item-tile">
+						<p> 01 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 2 -->
+					<div class="queue-item-tile">
+						<p> 02 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 3 -->
+					<div class="queue-item-tile">
+						<p> 03 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 4 -->
+					<div class="queue-item-tile">
+						<p> 04 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 5 -->
+					<div class="queue-item-tile">
+						<p> 05 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>					
+					<!-- Tile for item 6 -->
+					<div class="queue-item-tile">
+						<p> 06 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 7 -->
+					<div class="queue-item-tile">
+						<p> 07 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 8 -->
+					<div class="queue-item-tile">
+						<p> 08 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 9 -->
+					<div class="queue-item-tile">
+						<p> 09 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 10 -->
+					<div class="queue-item-tile">
+						<p> 10 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 11 -->
+					<div class="queue-item-tile">
+						<p> 11 </p>
+						<img src="assets/queue-img-five.png">
+						<div class="queue-item-text">
+							<p> <b> Senorita </b> </p>
+							<p style="font-size: 0.7rem;"> Shawn Mendes </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 12 -->
+					<div class="queue-item-tile">
+						<p> 12 </p>
+						<img src="assets/queue-img-four.jpg">
+						<div class="queue-item-text">
+							<p> <b> Thunder </b> </p>
+							<p style="font-size: 0.7rem;"> Imagine Dragons </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 13 -->
+					<div class="queue-item-tile">
+						<p> 13 </p>
+						<img src="assets/queue-img-three.png">
+						<div class="queue-item-text">
+							<p> <b> It Ain't Me </b> </p>
+							<p style="font-size: 0.7rem;"> Selena Gomez </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 14 -->
+					<div class="queue-item-tile">
+						<p> 14 </p>
+						<img src="assets/queue-img-two.jpg">
+						<div class="queue-item-text">
+							<p> <b> Something Just Like This </b> </p>
+							<p style="font-size: 0.7rem;"> Coldplay </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+					<!-- Tile for item 15 -->
+					<div class="queue-item-tile">
+						<p> 15 </p>
+						<img src="assets/queue-img-one.png">
+						<div class="queue-item-text">
+							<p> <b> It's You </b> </p>
+							<p style="font-size: 0.7rem;"> Ali Gatie </p>
+						</div>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>	
+			</div>
+			<!-- My Playlist ends here	 -->
+		</aside>
+		<!-- Aside Section ends here -->
+
+		<!-- Footer to include the music play controls -->
+		<footer class="footer-section">
+			<!-- Display to conatin all elements of music controls-->
+			<div class="footer-display" id="footer-display">
+				<!-- Left-most section - song details, etc -->
+				<div class="player-items" id="song-details">
+					<!-- Song image -->
+					<img src="assets/music-player-img.png" alt="Img">
+					<!-- Div for song and artist name  -->
+					<div id="song-details-text">
+						<p> <b> Darkside </b> </p>
+						<p style="font-size: 0.7rem; color: #858585;"> Alan Walker </p>
+					</div>
+					<!-- Div for heart and ban icons -->
+					<div id="song-details-icons">
+						<i class="far fa-heart"></i>
+						<i class="fas fa-ban"></i>
+					</div>
+				</div>
+				<!-- Left-most section ends here -->
+
+				<!-- Middle section - controls, progress bar, etc. -->
+				<div class="player-items" id="player-controls">
+					<!-- Div for player control icons -->
+					<div id="player-control-icons">
+						<i class="fas fa-random"></i>
+						<i class="fas fa-step-backward"></i>
+						<i class="far fa-play-circle" id="play-button" style="font-size: 2.2rem;"></i>
+						<!-- Song link to play when play button is hit -->
+						<audio src="https://aa.cf.saavncdn.com/355/5eed3326fb2aa459d06b5ce97f51f368_64.mp3?Expires=1590949490&Signature=Z3FWcVXl9VG1~OHfycq2zr1~mZIhlne-L47u2AwRBGKguu4Wndnki3gR9sA7bwdIOjBq2E68b2MyyrF6jlUXtiXgBdhg09SYelZVgMdhxC7waw72hdVk4ANKHqO5a~QdiDnVEnW1-iHdwr--TY2PiFvnrSUpNXGaVF34QputSl7J0tOIDCfuU5n6feUpiwRp90k1gyyQTAG6fw-HNh1tPo9CAVL0maA0vzg6gzD8WoD7gAV2sOCUR8UsG4oLArTW6NHz7F8~2y-ijP1-CWBRUWDt5di2dXqK-sSnFO-d4d9Z7y6vWMhSNMQOmSJpItNbuNl6IuRjqJIlAnuNldol1w__&Key-Pair-Id=APKAJB334VX63D3WJ5ZQ" id="song-player" preload="auto" ontimeupdate="updateProgress()">
+						</audio>
+						<i class="far fa-pause-circle" id="pause-button" style="font-size: 2.2rem; display: none;"></i>
+						<i class="fas fa-step-forward"></i>
+						<i class="fas fa-sync"></i>
+					</div>
+					<!-- Div for music progress bar -->
+					<div id="music-progress-bar">
+						<p id="time-played"> 0:00 </p>
+						<progress id="progress-bar" value="0" max="100"></progress>
+						<p> 3:31 </p>
+					</div>
+				</div>
+				<!-- Middle section ends here -->
+
+				<!-- Right-most section - other controls, etc -->
+				<div class="player-items" id="other-controls">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-desktop"></i>
+					<i class="fas fa-volume-up" id="volume-up"></i>
+					<i class="fas fa-volume-down" id="volume-down" style="display: none;"></i>
+					<i class="fas fa-volume-mute" id="volume-mute" style="display: none;"></i>
+					<input id="volume-slider" type="range">
+					<i class="fas fa-expand"></i>
+				</div>
+				<!-- Right-most section ends here -->
+			</div>
+		</footer>
+	</main>
+	<!-- Main Section which contains the major content ends here - includes carousel, artists, queue, categories, etc -->
+
+	<!-- Adding javascript file -->
+	<script type="text/javascript" src="Symphony Studio.js"></script>
+</body>
+</html>
